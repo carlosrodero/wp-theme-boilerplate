@@ -1,0 +1,18 @@
+@import "settings/settings";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: $font-family-primary;
+}
+
+img {
+  max-width: 100%;
+}
+
+@import "grid/grid";
+@import "components/components";
+@import "blocks/blocks";
